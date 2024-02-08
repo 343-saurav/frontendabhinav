@@ -1,3 +1,7 @@
+import { createGlobalStyle } from "styled-components";
+
+export const GlobalStyle = createGlobalStyle`
+
 *{
   padding:0;
   margin: 0;
@@ -7,7 +11,7 @@
 }
 
 html{
-  font-size: 80.5%;
+  font-size: 62.5%;
 
 }
 
@@ -24,3 +28,6 @@ h1{
 p{
   font-size: 1.6rem;
 }
+
+
+`;
